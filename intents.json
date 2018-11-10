@@ -1,0 +1,120 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "youtube audio",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "Stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.LoopOffIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.LoopOnIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Stop"
+                    ]
+                },
+                {
+                    "name": "SearchIntent",
+                    "slots": [
+                        {
+                            "name": "term",
+                            "type": "suchword"
+                        }
+                    ],
+                    "samples": [
+                        "suche nach {term}"
+                    ]
+                },
+                {
+                    "name": "SelectionIntent",
+                    "slots": [
+                        {
+                            "name": "selection",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "nummer {selection}"
+                    ]
+                },
+                {
+                    "name": "SearchImmediatelyIntent",
+                    "slots": [
+                        {
+                            "name": "lied",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "spiele {lied}"
+                    ]
+                },
+                {
+                    "name": "PlaylistIntent",
+                    "slots": [],
+                    "samples": [
+                        "starte Playlist"
+                    ]
+                },
+                {
+                    "name": "NextSongIntent",
+                    "slots": [],
+                    "samples": [
+                        "nächstes Lied"
+                    ]
+                },
+                {
+                    "name": "PrevSongIntent",
+                    "slots": [],
+                    "samples": [
+                        "letztes Lied",
+                        "vorheriges Lied"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "suchword",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Die Aerzte Schrei nach Liebe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "prince"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
