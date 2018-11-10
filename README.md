@@ -27,3 +27,16 @@ This skill is for german Alexa users (english version maybe coming aswell)
 4. Unter *Endpunkte* auf HTTPS schalten, unter *Default Location* Wildcard Zertifikate akzeptieren, und den Server auswählen, auf dem das Script laufen wird
 5. *Save Model* und dann *Build Model*
 6. Script auf dem Server starten, default Port ist **80**, sollte in der Regel aber geändert werden
+
+#### Optional ####
+```Wenn Playlisten verwendet werden sollen, dann muss in der main.py noch die PlaylistId eingetragen werden, so wie der API Key vom Google Konto (Resultate sind sonst auf 50 limitiert). Nicht vergessen in der Goolge Console die YouTube API freizuschalten für den API Key```
+
+#### To Do ####
+* Vorheriges Lied
+* Code aufräumen
+* Abfrage nach dem aktuellen Songnamen
+* Hinzufügen des Songs zur eingetragenen Playlist
+* und was mir sonst noch so einfällt
+
+
+**WICHTIG: Dieses Projekt ist rein aus Spaß an der Freude entstanden. Ich mache damit kein Geld, und will keinerlei Lizenz- oder Copyrightrechte verletzen. Sollte mir, trotz großer Vorsicht, doch etwas entgangen sein, was einer Rechteverletzung nahe kommt, kontaktieren Sie mich bitte direkt, damit ich den Umstand umgehend lösen kann**
