@@ -38,5 +38,6 @@ This skill is for german Alexa users (english version maybe coming aswell)
 * Hinzufügen des Songs zur eingetragenen Playlist
 * und was mir sonst noch so einfällt
 
+---
 
 **WICHTIG: Dieses Projekt ist rein aus Spaß an der Freude entstanden. Ich mache damit kein Geld, und will keinerlei Lizenz- oder Copyrightrechte verletzen. Sollte mir, trotz großer Vorsicht, doch etwas entgangen sein, was einer Rechteverletzung nahe kommt, kontaktieren Sie mich bitte direkt, damit ich den Umstand umgehend lösen kann**
